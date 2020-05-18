@@ -12,4 +12,4 @@ deploy:
   skip_cleanup: true
   file: Recipes.pdf
   on:
-    repo: jensdufour/Recipes 
+    repo: jensdufour/Cooking
