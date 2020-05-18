@@ -1,0 +1,15 @@
+sudo: required
+dist: trusty
+services: docker
+before_script:
+- python listFiles.py
+script:
+- docker pull blang/latex:ubuntu
+- docker run --rm -i --user="$(id -u):$(id -g)" --net=none -v "$PWD":/data blang/latex:ubuntu /bin/sh -c "pdflatex -interaction=nonstopmode main;"
+deploy:
+  provider: releases
+  api_key: $GITHUB_TOKEN
+  skip_cleanup: true
+  file: Recipes.pdf
+  on:
+    repo: jensdufour/Recipes 
