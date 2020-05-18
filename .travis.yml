@@ -10,6 +10,6 @@ deploy:
   provider: releases
   api_key: $GITHUB_TOKEN
   skip_cleanup: true
-  file: Recipes.pdf
+  file: main.pdf
   on:
     repo: jensdufour/Cooking
