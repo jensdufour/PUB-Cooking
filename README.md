@@ -1,6 +1,6 @@
 # My Cookbook
 
-[![Build Status](https://travis-ci.com/jensdufour/Cooking.svg?branch=master)](https://travis-ci.com/jensdufour/Cooking)
+[![Build Status](https://travis-ci.com/jensdufour/PUB-Cooking.svg?branch=master)](https://travis-ci.com/jensdufour/PUB-Cooking)
 
 ## Contributing
 
